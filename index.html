@@ -29,112 +29,127 @@
                 <i class="fas fa-user"> Ingresa</i>
                 <i class="fas fa-shopping-cart"></i>
             </div>
+            <div class="menu">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
         </header>
         <nav>
-            <a href="#">Productos</a>
-            <a href="#">Notebooks</a>
-            <a href="#">Armá tu PC</a>
-            <a href="#">Ayuda</a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#arma">Armá tu PC</a></li>
+                <li><a href="#info">Contacto</a></li>
+            </ul>
         </nav>
         <main>
-            <div class="container-card">
-                <div class="card">
-                    <img src="./img/pc_1.webp" alt="" />
-                    <div class="card-body">
-                        <div class="card-title">Pc Gamer Ryzen 7 5700g</div>
-                        <div class="card-price">$499.999</div>
-                        <button class="card-button">Ver detalles</button>
+            <section id="carrusel">
+                <img src="img/keyboard.jpg" alt="" />
+                <div>TODO PARA EL GAMING!</div>
+            </section>
+            <section id="productos">
+                <div class="container-card">
+                    <div class="card">
+                        <img src="./img/pc_1.webp" alt="" />
+                        <div class="card-body">
+                            <div class="card-title">Pc Gamer Ryzen 7 5700g</div>
+                            <div class="card-price">$499.999</div>
+                            <button class="card-button">Ver detalles</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./img/pc_2.webp" alt="Producto 2" />
+                        <div class="card-body">
+                            <div class="card-title">Pc Gamer I5 12400</div>
+                            <div class="card-price">$599.999</div>
+                            <button class="card-button">Ver detalles..</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/pc_3.webp" alt="Producto 3" />
+                        <div class="card-body">
+                            <div class="card-title">Pc Gamer Ryzen 5 5600g</div>
+                            <div class="card-price">$399.999</div>
+                            <button class="card-button">Ver detalles..</button>
+                        </div>
                     </div>
                 </div>
-
-                <div class="card">
-                    <img src="./img/pc_2.webp" alt="Producto 2" />
-                    <div class="card-body">
-                        <div class="card-title">Pc Gamer I5 12400</div>
-                        <div class="card-price">$599.999</div>
-                        <button class="card-button">Ver detalles..</button>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="img/pc_3.webp" alt="Producto 3" />
-                    <div class="card-body">
-                        <div class="card-title">Pc Gamer Ryzen 5 5600g</div>
-                        <div class="card-price">$399.999</div>
-                        <button class="card-button">Ver detalles..</button>
-                    </div>
-                </div>
-            </div>
-            <div class="container-reels">
-                <iframe
-                    width="255"
-                    height="450"
-                    src="https://www.youtube.com/embed/8WdurYCXU6Y?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=8WdurYCXU6Y"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                    style="pointer-events: none"
-                >
-                </iframe>
-
-                <iframe
-                    width="255"
-                    height="450"
-                    src="https://www.youtube.com/embed/eR9YkXR-21k?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=eR9YkXR-21k"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                    style="pointer-events: none"
-                >
-                </iframe>
-
-                <iframe
-                    width="255"
-                    height="450"
-                    src="https://www.youtube.com/embed/P-dS6zunNlE?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=P-dS6zunNlE"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                    style="pointer-events: none"
-                >
-                </iframe>
-
-                <iframe
-                    width="255"
-                    height="450"
-                    src="https://www.youtube.com/embed/wrIBfpFfqNg?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=wrIBfpFfqNg"
-                    frameborder="0"
-                    allow="autoplay; encrypted-media"
-                    allowfullscreen
-                    style="pointer-events: none"
-                >
-                </iframe>
-            </div>
-            <div class="container-info">
-                <div class="ubicacion">
-                    <h3>ubicacion</h3>
+            </section>
+            <section id="arma">
+                <div class="container-reels">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14648.222903274567!2d-58.38653846939633!3d-34.60606919780763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352c772204d7%3A0x51b9bde27f035164!2sTecnoWeb%20Argentina!5e0!3m2!1ses!2sar!4v1748114266409!5m2!1ses!2sar"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                </div>
-                <div class="form">
-                    <h3>Contacto</h3>
-                    <form action="https://formspree.io/f/mrbqwldj" method="POST">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required />
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" id="email" name="email" required />
+                        width="255"
+                        height="450"
+                        src="https://www.youtube.com/embed/8WdurYCXU6Y?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=8WdurYCXU6Y"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                        style="pointer-events: none"
+                    >
+                    </iframe>
 
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    <iframe
+                        width="255"
+                        height="450"
+                        src="https://www.youtube.com/embed/eR9YkXR-21k?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=eR9YkXR-21k"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                        style="pointer-events: none"
+                    >
+                    </iframe>
 
-                        <button type="submit">Enviar</button>
-                    </form>
+                    <iframe
+                        width="255"
+                        height="450"
+                        src="https://www.youtube.com/embed/P-dS6zunNlE?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=P-dS6zunNlE"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                        style="pointer-events: none"
+                    >
+                    </iframe>
+
+                    <iframe
+                        width="255"
+                        height="450"
+                        src="https://www.youtube.com/embed/wrIBfpFfqNg?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=wrIBfpFfqNg"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                        style="pointer-events: none"
+                    >
+                    </iframe>
                 </div>
-            </div>
+            </section>
+            <section id="info">
+                <div class="container-info">
+                    <div class="ubicacion">
+                        <h3>ubicacion</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14648.222903274567!2d-58.38653846939633!3d-34.60606919780763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352c772204d7%3A0x51b9bde27f035164!2sTecnoWeb%20Argentina!5e0!3m2!1ses!2sar!4v1748114266409!5m2!1ses!2sar"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div class="form">
+                        <h3>Contacto</h3>
+                        <form action="https://formspree.io/f/mrbqwldj" method="POST">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required />
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required />
+
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <h4>Seguinos en nuestras redes sociales!</h4>
